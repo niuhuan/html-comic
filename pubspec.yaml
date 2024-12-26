@@ -1,0 +1,41 @@
+name: html
+description: A image gallery client.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.2
+  flutter_rust_bridge:
+    path: ../flutter_rust_bridge/frb_dart
+  url_launcher: ^6.0.20
+  flutter_styled_toast: ^2.0.0
+  waterfall_flow: ^3.0.2
+  permission_handler: ^9.2.0
+  photo_view: ^0.13.0
+  decorated_icon: ^1.2.1
+  modal_bottom_sheet: ^2.0.1
+  event: ^2.1.2
+  flutter_svg: ^1.0.3
+  another_xlider: ^1.0.1+2
+  file_picker: ^4.5.1
+  clipboard: ^0.1.3
+  scrollable_positioned_list: ^0.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - lib/assets/
